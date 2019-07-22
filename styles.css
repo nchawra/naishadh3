@@ -1,0 +1,73 @@
+header{
+    background-image: url("img/background2.jpg");
+    color: white;
+    padding: 15px;
+}
+body{
+    margin: 0;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-size: 25px;
+}
+nav a:hover {
+    background-color: orangered;
+    box-shadow: 0 0 10px black ;
+    border-radius: 25px;
+}
+
+nav a.active {
+    background-color: lightcoral;
+    border-radius: 25px;
+}
+
+aside{
+    background-image: url("img/background2.jpg");
+    float: left;
+    width: 250px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    height: 800px;
+}
+aside a {
+    padding: 10px;
+    display: block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+aside a:hover {
+    background-color: lightblue;
+    color: red;
+}
+
+section{
+    margin-left: 270px;
+}
+
+article h2
+{
+    font-size: 25px;
+    color: red;
+}
+
+article p{
+    font-size: 22px;
+
+
+}
+footer{
+    background-image: url("img/background2.jpg");
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
